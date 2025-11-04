@@ -1,0 +1,29 @@
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-container h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.home-container p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.get-started {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-started:hover {
+  background-color: #0056b3;
+}
