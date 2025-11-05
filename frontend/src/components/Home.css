@@ -1,29 +1,37 @@
 .home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
   text-align: center;
-  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.6); /* overlay for readability */
 }
 
-.home-container h1 {
-  color: #333;
-  font-size: 2rem;
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bcd4;
 }
 
-.home-container p {
-  color: #555;
+.home-content p {
   font-size: 1.1rem;
-  margin-top: 10px;
+  width: 80%;
+  margin: 0 auto 25px;
+  color: #eee;
 }
 
-.get-started {
-  margin-top: 20px;
-  background-color: #007bff;
+.start-btn {
+  background-color: #00bcd4;
   color: white;
-  padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
   cursor: pointer;
+  transition: 0.3s;
 }
 
-.get-started:hover {
-  background-color: #0056b3;
+.start-btn:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
 }
